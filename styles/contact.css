@@ -1,4 +1,3 @@
-/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -21,12 +20,7 @@ input[type=text], select, textarea {
   }
   
   /* Style the container/contact section */
-  .container {
-      margin: 0;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+  
   
   /* Create two columns that float next to eachother */
   .column {
@@ -42,6 +36,3 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  

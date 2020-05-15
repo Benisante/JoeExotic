@@ -5,6 +5,7 @@
 }
 
 .gridContainer {
+    
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -24,4 +25,20 @@
 .gridRight img {
     width: 100%;
     height: 350px;
+}
+
+.contact {
+
+    background-color: #F2F2F2;
+}
+
+.contactTitle{
+    padding: 10px 0;
+    
+}
+
+.contactTitle p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
 }
