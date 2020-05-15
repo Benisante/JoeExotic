@@ -1,148 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Joe's Toons</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/contact.css">
-  </head>
-  <body>
+</head>
 
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Music</a></li>
-          <li><a href="#">Following</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </nav>
-      <!-- <img style="width:2000px"src="images/landing.jpg" alt="Spotify Concert"> -->
+<body>
 
-    <div>
+   
+        <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Following</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+        <!-- <img style="width:2000px"src="images/landing.jpg" alt="Spotify Concert"> -->
 
-
-
+        <div>
 
 
 
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img id="homePageImg" class="d-block w-100" src="images/joe-with-bf-squ.jpeg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/joe-on-car-squ.jpeg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kaC6codTeCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="homePageImg" class="d-block w-100" src="images/joe-with-bf-squ.jpeg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/joe-on-car-squ.jpeg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kaC6codTeCk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+
+
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-
-
-
-
-    </div>
-    <div class="container">
-        <div style="text-align:center">
-          <p>Want to pull up on Carol Baskin? leave me a message:</p>
+        <div>
+            <div class="container">
+                <div style="text-align:center">
+                    <p>Want to pull up on Carol Baskin? leave me a message:</p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="./images/781cabfd19166600235cd8b4a95fc7c5--ware-men.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <form ">
+                  <label for=" fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="column">
-            <img src="./images/781cabfd19166600235cd8b4a95fc7c5--ware-men.jpg" style="width:100%">
-          </div>
-          <div class="column">
-            <form ">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
+        <footer>
+            <div class="footer">
+                <div class="inner-footer">
+
+                    <div class="footer-items">
+                        <h1>Angel Baro </h1>
+                        <p>If your reading this it's too late. She took the kids, i lost the car, and im late on my
+                            morgage. I can't keep living like this... tomorrow at 3PM i will hang out at the mall to try
+                            and lift my spirits. Wish me luck, Good Bye. </p>
+                    </div>
+
+                    <div class="footer-items">
+                        <h3>Quick Links</h3>
+                        <div class="border1"></div>
+                        <ul>
+                            <Link to='/'>
+                            <li>Home</li>
+                            </Link>
+                            <Link to='/motorcycles'>
+                            <li>Motorcyles</li>
+                            </Link>
+                            <Link to='/cigars'>
+                            <li>Cigars</li>
+                            </Link>
+                            <Link to='/trips'>
+                            <li>Trips</li>
+                            </Link>
+                        </ul>
+                    </div>
+
+                    <div class="footer-items">
+                        <h3>Skills</h3>
+                        <div class="border1"></div>
+                        <ul>
+                            <a href="#">
+                                <li>HTML</li>
+                            </a>
+                            <a href="#">
+                                <li>CSS</li>
+                            </a>
+                            <a href="#">
+                                <li>JavaScript</li>
+                            </a>
+                            <a href="#">
+                                <li>BootStrap</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-items">
+                        <h3>Contact Me</h3>
+                        <div class="border1"></div>
+                        <ul>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Miami, Florida</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>786-445-6192</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i>angelbaro44@icloud.com</li>
+                        </ul>
+
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    Copyright &copy; Angel Baro 2020.
+                </div>
+            </div>
+        </footer>
         </div>
-      </div>
-    <footer><div class="footer">
-      <div class="inner-footer">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+</body>
 
-        <div class="footer-items">
-          <h1>Angel Baro </h1>
-          <p>If your reading this it's too late. She took the kids, i lost the car, and im late on my morgage. I can't keep living like this... tomorrow at 3PM i will hang out at the mall to try and lift my spirits. Wish me luck, Good Bye. </p>
-        </div>
-
-        <div class="footer-items">
-          <h3>Quick Links</h3>
-          <div class="border1"></div>
-          <ul>
-          <Link to='/'><li>Home</li></Link>
-          <Link to='/motorcycles'><li>Motorcyles</li></Link>
-          <Link to='/cigars'><li>Cigars</li></Link>
-          <Link to='/trips'><li>Trips</li></Link>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h3>Skills</h3>
-          <div class="border1"></div>
-          <ul>
-            <a href="#"><li>HTML</li></a>
-            <a href="#"><li>CSS</li></a>
-            <a href="#"><li>JavaScript</li></a>
-            <a href="#"><li>BootStrap</li></a>
-          </ul>
-        </div>
-
-        <div class="footer-items">
-          <h3>Contact Me</h3>
-          <div class="border1"></div>
-          <ul>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Miami, Florida</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>786-445-6192</li>
-            <li><i class="fa fa-envelope" aria-hidden="true"></i>angelbaro44@icloud.com</li>
-          </ul>
-
-          <div class="social-media">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google-plus-square"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        Copyright &copy; Angel Baro 2020.
-</div>
-    </div></footer>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-  
 </html>

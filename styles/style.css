@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: Helvetica, sans-serif;
-    max-width: 1200px;
+   
     /* border: 1px solid red; */
 }
 
@@ -236,13 +236,10 @@ h2 {
 }
 
 
-<<<<<<< HEAD
 #homePageImg {
     max-width: 20vw;
 }
-=======
 
->>>>>>> 0c191e2361da26d0456b75a4bafd7ce6cd181052
 
 
 
