@@ -1,0 +1,44 @@
+.info {
+    height: 400px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.gridContainer {
+    
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gridLeft{
+    display: grid;
+    padding: 40px;
+    letter-spacing: 1px;
+}
+
+.gridRight{
+    padding: 30px;
+    height: 100%;
+}
+
+.gridRight img {
+    width: 100%;
+    height: 350px;
+}
+
+.contact {
+
+    background-color: #F2F2F2;
+}
+
+.contactTitle{
+    padding: 10px 0;
+    
+}
+
+.contactTitle p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
