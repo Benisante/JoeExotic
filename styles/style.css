@@ -178,6 +178,55 @@ nav ul > * {
     position: absolute;
     align-self: center;
 }
-body{
-  padding-bottom: 100px;
+
+
+
+.aboutSection {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
 }
+
+#about {
+    background-image: url('../images/200403-tiger-king-tease_piqbhy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#overlay {
+position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: block;
+}
+
+
+
+.textContainer p {
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer-text {
+    width: 440px;
+    height: min-content;
+}
+
